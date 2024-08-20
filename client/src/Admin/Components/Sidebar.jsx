@@ -32,7 +32,7 @@ const Sidebar = () => {
           <ul>
             <li>
               <Link
-                to="Admin/Dashboard"
+                to="/Admin"
                 className="block p-4 font-semibold hover:bg-blue-700 cursor-pointer"
               >
                 Dashboard

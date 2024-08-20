@@ -22,7 +22,7 @@ function AdminPanel() {
         <Sidebar />
         <div className="flex-1 overflow-y-auto p-4">
           <Routes>
-            <Route path="/Admin/Dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/Admin/products" element={<Products />} />
             <Route path="/Admin/AddProducts" element={<AddProductPage />} />
             <Route path="/Admin/AdminLogin" element={<AdminLoginPage />} />
